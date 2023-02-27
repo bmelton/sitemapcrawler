@@ -15,7 +15,7 @@ pip install sitemapcrawler
 ## Usage
 
 ```
-from sitemapcrawler import Crawler
+from sitemapcrawler.crawler import Crawler
 crawler = Crawler(domain="https://yourdomain.com", sitemap="https://yourdomain.com/sitemap.xml", fetch=True)
 crawler.run()
 ```
